@@ -1,4 +1,4 @@
-import java.sql.*;
+java.sql.*;
 public class Demojdbc {
     public static void main(String[] args) throws Exception {
 
@@ -18,8 +18,8 @@ public class Demojdbc {
 
 
         while (rs.next()) {
-            System.out.print(rs.getInt(1) +"-");
-            System.out.print(rs.getString(2) +"-");
+            System.out.print(rs.getInt(1) + "-");
+            System.out.print(rs.getString(2) + "-");
             System.out.println(rs.getInt(3));
         }
 
